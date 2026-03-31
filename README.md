@@ -13,10 +13,10 @@ Using a Spectral Angle Mapper (SAM) workflow applied to pre- and post-fire tempo
 ## Repository Contents
 
 ```
-aviris3-postfire-hazmat-detection/
+hyperspectral-hazmat-detection/
 │
 ├── notebooks/
-│   └── 787_LaNeve_Final.ipynb       # Full SAM workflow: data loading, preprocessing,
+│   └── 01_sam_hazmat_workflow.ipynb       # Full SAM workflow: data loading, preprocessing,
 │                                    # bad band removal, clustering, spatial analysis,
 │                                    # and hazmat detection dashboard
 │
@@ -53,7 +53,7 @@ Data are available through the NASA Earthdata portal. An Earthdata Login account
 
 ## Workflow
 
-The notebook (`787_LaNeve_Final.ipynb`) follows a sequential pipeline:
+The notebook (`01_sam_hazmat_workflow.ipynb`) follows a sequential pipeline:
 
 1. **Data Identification** — Locate and inspect AVIRIS-3 pre/post-fire NetCDF files
 2. **Data Loading** — Load L2A reflectance data cubes and wavelength metadata via `netCDF4` and `xarray`
@@ -96,7 +96,7 @@ data/after/AV320250116t193840_005_L2A_OE_f576f24d_RFL_ORT.nc
 
 ### 4. Update the Base Path
 
-In the first code cell of `787_LaNeve_Final.ipynb`, update `base_path` to match your local directory:
+In the first code cell of `01_sam_hazmat_workflow.ipynb`, update `base_path` to match your local directory:
 
 ```python
 base_path = r'your/local/path/to/hyperspectral-hazmat-detection/data'
@@ -105,7 +105,7 @@ base_path = r'your/local/path/to/hyperspectral-hazmat-detection/data'
 ### 5. Run the Notebook
 
 ```bash
-jupyter notebook notebooks/787_LaNeve_Final.ipynb
+jupyter notebook notebooks/01_sam_hazmat_workflow.ipynb
 ```
 
 Run cells sequentially from top to bottom.
