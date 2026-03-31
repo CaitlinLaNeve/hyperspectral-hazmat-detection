@@ -6,7 +6,7 @@ The `hyperspectral-hazmat-detection` repository supports a thesis study utilizin
 
 Using a Spectral Angle Mapper (SAM) workflow applied to pre- and post-fire temporal pairs, this study targets six critical spectral signatures — including chrysotile asbestos and infrastructure materials (asphalt, concrete, and tar) — to characterize fire-driven spectral shifts and identify high-priority hazard hotspots for frontline personnel.
 
-> **Key finding:** Chrysotile asbestos detections decreased significantly post-fire, suggesting chemical alteration or aerosolization during combustion — a primary inhalation risk for first responders.
+> **Key finding:** Chrysotile asbestos detections decreased significantly post-fire, suggesting chemical alteration or aerosolization during combustion, an inhalation risk for first responders and those returning to the area.
 
 ---
 
