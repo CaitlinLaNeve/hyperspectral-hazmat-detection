@@ -1,4 +1,4 @@
-# aviris3-postfire-hazmat-detection
+# hyperspectral-hazmat-detection
 
 ## Overview
 
