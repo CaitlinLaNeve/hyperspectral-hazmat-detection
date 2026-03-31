@@ -23,7 +23,7 @@ hyperspectral-hazmat-detection/
 ├── data/
 │   ├── before/                      # Pre-fire AVIRIS-3 L2A NetCDF (gitignored — see Data Access)
 │   ├── after/                       # Post-fire AVIRIS-3 L2A NetCDF (gitignored — see Data Access)
-│   └── spectral_library/            # Reference spectra for SAM targets (CSV)
+│   └── spectra/                     # Reference spectra for SAM targets (CSV)
 │
 ├── results/
 │   ├── figures/                     # Maps, spectral plots, cluster visualizations
