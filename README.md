@@ -145,3 +145,13 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 This study was conducted in partial fulfillment of the requirements for the degree of Master of Science at George Mason University at George Mason University.
 
 AVIRIS-3 data were provided by NASA's Jet Propulsion Laboratory (JPL). This work was conducted in support of the NASA Disaster Response and Coordination System (DRCS).
+
+---
+
+## Contact
+
+For more information, please contact [Caitlin LaNeve](https://github.com/caitlinlaneve) (claneve [ at ] gmu [ dot ] edu).
+
+---
+
+
